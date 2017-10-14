@@ -19,7 +19,7 @@ h1{
 h2 {
   font-family: Lato;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 200%;
   color: white;
   text-align: center;
   margin-bottom: 50px
@@ -28,7 +28,7 @@ h2 {
 h3 {
   font-family: Lato;
   font-weight: 400;
-  font-size: 200%;
+  font-size: 120%;
   color: white;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 } 
 
   .card p {
-    font-size: 150%;
+    font-size: 120%;
   }
 
 #banner {
@@ -74,7 +74,7 @@ a:hover {
 
   #banner p {
     color: white;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 400;
   }
 
@@ -163,54 +163,51 @@ a:hover {
     width: 30%;
   }
 
-#block2 .row {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+#block2 {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
 
-    align-items: center;
+  align-items: center;
 
-    margin: 0px;
-    padding: 0px;
-}
-  #block2 .container {
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
-  }
-  #block2 {
-    background-color: #FFFFFF;
-    padding-top: 5%;
-    padding-bottom: 9%;
-    padding-left: 0px
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: flex;
+  margin: 0px;
+
+  background-color: #FFFFFF;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 0px
+  padding-right: 0px;
+  display: flex;
   }
 
     #block2 p {
       color: #333745;
-      font-size: 150%;
+      font-size: 120%;
     }
 
     #block2 h3 {
       color: #333745;
+      font-size: 120%;
+      margin-top: 5%;
     }
 
     #block2 img {
-      width: 40%;
+      width: 45%;
       padding: 0px;
       margin: 0px;
     }
 
-    #block2 .pictos img {
-      width: 6%;
+    #block2 .pictos {
+      margin-bottom: 5%
     }
+
+      #block2 .pictos img {
+        width: 6%;
+      }
 
     #block2-2 {
       margin-top: auto;
@@ -222,6 +219,33 @@ a:hover {
       margin-top: auto;
       margin-bottom: auto;
     }
+
+#hidden {
+  background-color: white;
+  padding: 5% 10% 9% 10%;
+  display: flex;
+}
+
+  #hidden img {
+    width: 10%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #hidden p {
+      color: #333745;
+      font-size: 120%;
+    }
+
+  #hidden h3 {
+    color: #333745;
+    font-size: 120%;
+    margin-top: 10%;
+  }
+
+  #hidden .pictos {
+    margin-bottom: 10%
+  }
 
 #formulaire {
   padding: 0px;
@@ -252,9 +276,6 @@ a:hover {
   padding-right: 3%;
   padding-top: 0.5%;
   color: white; 
-  border-top: 0.2%;
-  border-top-color: white;
-  border-top-style: solid;
 }
   #footer #reseaux-sociaux {
     text-align: right;
