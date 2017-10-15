@@ -27,7 +27,7 @@ h2 {
 
 h3 {
   font-family: Lato;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 120%;
   color: white;
 }
@@ -212,6 +212,7 @@ a:hover {
     #block2-2 {
       margin-top: auto;
       margin-bottom: auto;
+      margin-right: 5%;
     }
 
     #block2-1 {
